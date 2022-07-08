@@ -1,0 +1,34 @@
+.npl{
+    padding: 5px 0;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+p{
+    display: flex;
+    margin-top: 50px;
+    font-size: 20px;
+    /* font-family: 'Gill Sans'; */
+}
+.botão-content{
+    background-color: blue;
+}
+.botão-content:hover{
+    cursor: pointer;
+    background-color: sandybrown;
+}
+.imagem-cachoros{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+    margin-top: 8px;
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+.inputcaho{
+    display: flex;
+    border-radius: 0px;
+}

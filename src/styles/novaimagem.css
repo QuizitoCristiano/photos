@@ -1,0 +1,19 @@
+.botão-segontario{
+   background-color: blue;
+   margin-top: 80px;
+}
+.botão-segontario:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.imagem-seguntario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+
+.imagem-seguntario img {
+    width: 30%;
+    /* height: 170px;   */
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100vw;
+    max-width: 600px;
+
+    margin:auto;
+    
+    height: 100vh;
+    overflow-x: hidden;
+
+    padding: 0 0.2rem;
+
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 1rem ;
+   
+    background-color: rgba(255,255,255,0.9);
+}
+
+nav {
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;  
+    
+    padding: 0 20px;
+}
+
+button {
+    min-height: 3rem;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 1.3rem;
+    
+    width: 100%;
+    
+    background: black;
+    color: white;
+    cursor: pointer;
+
+    font-weight: 900;
+}
+
+
+.buttons-container{
+    width: 100%;
+   /* transform: translate(-50%, -2%); */
+ }
+ 
+ .button:hover{
+     cursor: pointer;
+ }
+ 
+ .outlined {
+     color: black;
+     background-color: transparent;
+     border: 2px solid black;
+     border-radius: 5px;
+ }
+
+ footer {
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: sticky;
+    bottom: 0;
+
+    background-color: white;
+    padding: 1rem 0;
+
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem;
+    min-height: 90vh;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+h6 {
+    opacity: 0.8;
+}
+
+p {
+    /* font-weight: 900; */
+    /* margin-bottom: 2rem; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+     /* font-size: 0.25rem; */
+} 
+
+a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

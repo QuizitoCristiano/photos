@@ -1,0 +1,37 @@
+Login do usuário
+    - Tela de Login
+    - Autenticar com o firebase
+    - Redirecionar para a Home
+
+Criar novo usuário
+    - Tela de Register
+    - Criar usuário no firebase
+    - Redirecionar para a Home
+
+Discover
+    - Listar fotos de quem estou seguindo
+    - Listar últimas fotos publicadas(aleatórias)
+    - Permitir abrir chat com publicadores
+
+Photo Overlay(foto em tela cheia)
+    - Mostra foto em tamanha grande
+    - Permite navegar para o perfil do publicador
+
+Pesquisa
+    - Tela de pesquisar
+    - Buscar fotos no firebase com o texto de busca
+    - Listar as fotos
+
+Profile
+    - Tela de Profile
+    - Buscar informações do usuário
+    - Buscar fotos do usuário
+    - Permitir ações de seguir e enviar mensagem
+
+Chats
+    - Tela com meus Chats
+    - Buscar chats do meu usuário no firebase
+
+Chat individual
+    - Tela de chat
+    - Buscar mensagens do chat

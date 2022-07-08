@@ -1,0 +1,56 @@
+
+
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    
+}
+.photos{
+   
+    vertical-align: middle;
+    width: 100%;  
+    margin-bottom: 50px;
+  
+}
+   
+.letra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.San{
+    font-weight: 900;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.img-profile{
+    display: flex;
+    
+}
+.follow-jane{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.follow-jane:hover{
+    background-color: blue;
+}
+.baixo{
+    border: 1px 1px 1px 1px solid pink;
+   
+}
+.baixo:hover{
+    cursor: pointer;
+    background-color: blue;
+}

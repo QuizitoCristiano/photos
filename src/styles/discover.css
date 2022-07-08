@@ -1,0 +1,93 @@
+.card {
+    margin: 0.8rem;
+    height: 100%;
+}
+
+.card-image {
+    height: 80%;
+    width: max-content;
+    max-width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.card-image img {
+    
+   
+    max-height: 250px;
+}
+
+.card-text {
+    display: flex;
+}
+
+.card-avatar {
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+.card-avatar img {
+    width: 100%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.content{
+   
+    padding: 5px 0;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+.discover{
+
+    margin-left: 30px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+.photos{
+    display:flex;
+    width:200;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 200px;
+    vertical-align: middle;
+    width: 80%;
+  
+}
+.fb{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+button{
+    width: 100%;
+    margin-bottom: 50px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fb:hover{
+    cursor: pointer;
+    background-color: rgb(17, 17, 234);
+}
+.conversa{
+    display: flex;
+    margin-left: 74px;
+    background-color: rgb(9, 198, 15);
+    border-radius: 10px;
+    width: 120px;
+}
