@@ -1,4 +1,4 @@
-body{
+body {
     background-color: white;
 }
 
@@ -12,7 +12,7 @@ body{
    padding: 80px;
    border-radius: 15px;
 } */
-.input{
+.input {
     padding: 20px;
     border: none;
     font-size: 20px;
@@ -20,10 +20,9 @@ body{
     border-bottom: 1px solid black;
     background-color: transparent;
     outline: none;
-    
 }
 
-button{
+button {
     padding: 20px;
     border: none;
     font-size: 20px;
@@ -34,20 +33,19 @@ button{
 /* button:hover{
     background-color: rgb(8, 8, 237);
 } */
-.imagem-input{
+.imagem-input {
     display: flex;
     height: 10px;
     width: 50px;
 }
 .Divbotao {
-  display: flex;
- 
+    display: flex;
 }
-.catastro{
+.catastro {
     background-color: blue;
-    border-radius: 0px 5px 5px 0px;  
+    border-radius: 0px 5px 5px 0px;
 }
 .botalogi {
-  background-color: blue;
-  border-radius: 5px 0px 0px 5px;  
+    background-color: blue;
+    border-radius: 5px 0px 0px 5px;
 }
